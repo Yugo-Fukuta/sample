@@ -67,3 +67,7 @@ gem 'dotenv-rails'
 group :production do
   gem 'mysql2'
 end
+
+group :development, :production, :test do
+  gem 'jquery-rails'
+end
